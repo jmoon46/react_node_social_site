@@ -45,77 +45,73 @@ const ProfileSchema = new Schema({
 	},
 
 	experience: {
-		{
-			title: {
-				type: String,
-				required: true
-			},
+		title: {
+			type: String,
+			required: true
+		},
 
-			company: {
-				type: String,
-				required: true
-			},
+		company: {
+			type: String,
+			required: true
+		},
 
-			location: {
-				type: String
-			},
+		location: {
+			type: String
+		},
 
-			from: {
-				type: Date,
-				required: true
-			},
+		from: {
+			type: Date,
+			required: true
+		},
 
-			to: {
-				type: Date,
-				required: true
-			},
+		to: {
+			type: Date,
+			required: true
+		},
 
-			current: {
-				type: Boolean,
-				default: false
-			},
+		current: {
+			type: Boolean,
+			default: false
+		},
 
-			description: {
-				type: String
-			}
+		description: {
+			type: String
 		}
 	},
 
 education: {
-		{
-			school: {
-				type: String,
-				required: true
-			},
+		school: {
+			type: String,
+			required: true
+		},
 
-			degree: {
-				type: String,
-				required: true
-			},
+		degree: {
+			type: String,
+			required: true
+		},
 
-			fieldofstudy: {
-				type: String,
-				required: true
-			},
+		fieldofstudy: {
+			type: String,
+			required: true
+		},
 
-			from: {
-				type: Date,
-				required: true
-			},
+		from: {
+			type: Date,
+			required: true
+		},
 
-			to: {
-				type: Date,
-				required: true
-			},
+		to: {
+			type: Date,
+			required: true
+		},
 
-			current: {
-				type: Boolean,
-				default: false
-			},
+		current: {
+			type: Boolean,
+			default: false
+		},
 
-			description: {
-				type: String
-			}
+		description: {
+			type: String
 		}
 	},
 

@@ -103,8 +103,7 @@ education: [
 			},
 
 			to: {
-				type: Date,
-				required: true
+				type: Date
 			},
 
 			current: {
